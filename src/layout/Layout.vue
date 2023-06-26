@@ -6,7 +6,7 @@ import Sidebar from "@/layout/Sidebar/Sidebar.vue";
 <template>
   <div class="layout">
     <Navbar />
-    <div class="d-flex justify-content-between align-items-center">
+    <div class="d-flex justify-content-between align-items-center bg-body-tertiary">
       <Sidebar />
       <main class="container m-auto 
         bg-body-tertiary min-vh-100 
