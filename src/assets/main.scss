@@ -1,0 +1,57 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --main: #3a8c63;
+  --main-darker: #2e6e4a;
+  --main-lighter: #4faa7a;
+  --dark-grey: #333333;
+  --light-grey: #7f7f7f;
+}
+
+.bg-main {
+  background-color: var(--main) !important;
+}
+
+.flex-1{
+  flex: 1;
+}
+.flex-2{
+  flex: 2;
+}
+.btn {
+  &.classic {
+    background-color: none;
+    border: none;
+    color: var(--main);
+    &:hover {
+      color: var(--main-darker);
+    }
+  }
+
+  &.filled {
+    background-color: var(--main);
+    color: var(--bs-white);
+
+    &:hover {
+      background-color: var(--bs-white);
+      color: var(--main);
+      border: 1px solid var(--main);
+    }
+  }
+
+  &.outlined {
+    background-color: none;
+    color: var(--main);
+    border: 1px solid var(--main);
+
+    &:hover {
+      background-color: var(--main-darker);
+      color: var(--bs-white);
+    }
+  }
+
+  &.basic {
+    border: none;
+    outline: none;
+  }
+}
