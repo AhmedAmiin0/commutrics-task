@@ -15,6 +15,9 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
+          <SidebarItems 
+            class="d-lg-none d-block"
+          />
           <Btn class="classic">
             Balance is: $999.0
             <template #rightIcon>
@@ -55,6 +58,7 @@
 import InfoIcon from "@/components/Icons/InfoIcon.vue";
 import Btn from "@/components/Btn.vue";
 import ChevronDownIcon from "@/components/Icons/ChevronDownIcon.vue";
+import SidebarItems from '@/layout/Sidebar/SidebarItems.vue'
 </script>
 <style lang="scss">
 .dropdown-menu {
